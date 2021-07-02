@@ -4,9 +4,9 @@ path(path,'..\funcs')
 idx = 16; % 1~16
 
 %% 1. prepare raw data
-K = importdata('..\Fusion-master\data\result\CameraIntrinsicMatrix.txt'); % camera intrinsic matrix
-R = importdata('..\Fusion-master\data\result\JointRotationMatrix.txt'); % joint rotation matrix
-T = importdata('..\Fusion-master\data\result\JointTranslationMatrix.txt'); % joint translation matrix
+K = importdata('..\Calibr-main\data\result\CameraIntrinsicMatrix.txt'); % camera intrinsic matrix
+R = importdata('..\Calibr-main\data\result\JointRotationMatrix.txt'); % joint rotation matrix
+T = importdata('..\Calibr-main\data\result\JointTranslationMatrix.txt'); % joint translation matrix
 
 % image file of object
 ImageObjectFileName = 'data\Object_Image\';
